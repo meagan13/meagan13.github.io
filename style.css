@@ -138,13 +138,19 @@ header.p-section {
 
 .marker-highlight:before {
   content: "";
-  background-color: #0b6efd87;
+  background-color: rgba(83,160,142);
   width: 102%;
   height: 0.2em;
   position: absolute;
-  z-index: -2;
+  z-index: -1;
   filter: url(#marker-shape);
   left: -0.05em;
   padding: 0 0.25em;
   bottom: 0.2em;
 }
+
+.background {
+  /* background-image: url(/img/euc.jpg); */
+  object-fit: fill;
+}
+
